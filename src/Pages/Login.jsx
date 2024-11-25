@@ -18,16 +18,18 @@ export default function Login() {
             </div>
           </div>
         </div>
-        <span className="mt-4 text-[#003566] text-[4em] font-black text-center hover:text-[#FFD60A]">
+        <span className="font-josefin mt-4 text-[#003566] text-[4em] font-black text-center hover:text-[#FFD60A]">
           ABC's of DSA
         </span>
       </div>
       <div className="flex flex-col items-center mt-[25px] bg-[#041B15] p-2 rounded-md">
         <div className="py-2 px-4 bg-[#003566] rounded-md">
-          <p className="text-[2em] m-0 text-[#FFD60A]">2025 EDITION</p>
+          <p className="font-josefin text-[2em] m-0 text-[#FFD60A]">
+            2025 EDITION
+          </p>
         </div>
         <Link to="/home">
-          <button className="w-full text-[2em] mt-2 py-2 px-[61px] bg-[#041B15] text-[#FFD60A] rounded-md border-none cursor-pointer hover:bg-[#003566] hover:text-[#FFD60A]">
+          <button className="font-josefin w-full text-[2em] mt-2 py-2 px-[61px] bg-[#041B15] text-[#FFD60A] rounded-md border-none cursor-pointer hover:bg-[#003566] hover:text-[#FFD60A]">
             ENTER
           </button>
         </Link>
