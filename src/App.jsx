@@ -1,8 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello DSA</h1>
-    </>
+    <div className="App">
+      <Router>
+        <main>
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </main>
+      </Router>
+    </div>
   );
 }
 
