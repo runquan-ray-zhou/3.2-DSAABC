@@ -4,8 +4,8 @@ import LoginImg from "../assets/Login2.png";
 export default function Login() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-[265px] h-[265px] bg-white rounded-full flex items-center justify-center">
-        <Link to="/home">
+      <div className="w-[365px] h-[365px] bg-white rounded-full flex items-center justify-center">
+        <Link className="flex justify-center" to="/home">
           <img
             src={LoginImg}
             alt="A squirrel below a tree with pears linked like a data structure"
